@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
-import Image1 from '../../Images/Image1.png'
+import Image2 from '../../Images/secretary-6613923_1280.png'
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Footer from './FooterC'
@@ -49,7 +49,7 @@ const Home = () => {
          </Navbar>
          <Container className='home-container'>
             <div className="left-side">
-               <img src={Image1} alt="" />
+               <img src={Image2} alt="" />
             </div>
             <div className="right-side">
                <p>
